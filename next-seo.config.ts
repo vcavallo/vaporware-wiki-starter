@@ -1,16 +1,17 @@
 import { DefaultSeoProps } from "next-seo";
 
-const description = "Wiki for the Vaporware project";
+const description =
+  "Wiki knowledge base for the OPfN Pallas project. An open source, distributed operating function personal server.";
 // See https://www.npmjs.com/package/next-seo for more options
 const config: DefaultSeoProps = {
-  titleTemplate: "%s | Vaporware wiki",
-  defaultTitle: "Vaporware Wiki",
+  titleTemplate: "%s | OPfN wiki",
+  defaultTitle: "OPfN Wiki",
   description,
 
   openGraph: {
     type: "website",
     locale: "en_IE",
-    title: "Vaporware Wiki",
+    title: "OPfN Wiki",
     description,
   },
   additionalLinkTags: [
